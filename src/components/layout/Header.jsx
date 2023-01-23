@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header className='absolute top-[2.734375vw] w-full z-[15]'>
     <div className=' w-[94vw] mx-auto relative z-[5] flex justify-between items-center'>
-    <Link>
+    <Link to={"./"}>
         <img src={logo} alt="Logo" className='w-[224px] md:w-[18.046875vw]' />
     </Link>
     <ul className='hidden md:flex font-[700] absolute left-[50%] top-[50%] transform translate-y-[-50%] translate-x-[-50%]  text-white text-[1.40625vw] flex gap-x-[3.984375vw] items-center'>

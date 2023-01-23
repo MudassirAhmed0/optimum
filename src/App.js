@@ -31,7 +31,7 @@ function App(props) {
             }
           />
           <Route
-            path="/new-page-3"
+            path="/"
             element={
               <Layout>
                 <NewPage3 />
@@ -39,7 +39,7 @@ function App(props) {
             }
           />
           <Route
-            path="/new-page-4"
+            path="/new-page-3"
             element={
               <Layout>
                 <NewPage4 />
