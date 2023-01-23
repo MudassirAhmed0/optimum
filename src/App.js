@@ -1,25 +1,57 @@
-import logo from './logo.svg';
-import './App.css';
+import * as React from "react";
+import "./index.css";
+import Layout from './components/layout/Layout'
+import NewPage1  from './pages/NewPage1'
+import NewPage2  from './pages/NewPage2'
+import NewPage3  from './pages/NewPage3'
+import NewPage4  from './pages/NewPage4'
+import LoginModal from './components/modal/LoginModal'
 
-function App() {
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+function App(props) {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route
+            path="/new-page-1"
+            element={
+              <Layout>
+                <NewPage1 />
+              </Layout>
+            }
+          />
+          <Route
+            path="/new-page-2"
+            element={
+              <Layout>
+                <NewPage2 />
+              </Layout>
+            }
+          />
+          <Route
+            path="/new-page-3"
+            element={
+              <Layout>
+                <NewPage3 />
+              </Layout>
+            }
+          />
+          <Route
+            path="/new-page-4"
+            element={
+              <Layout>
+                <NewPage4 />
+              </Layout>
+            }
+          />
+        </Routes>
+      </Router>
+      <LoginModal />
+    </>
   );
 }
+
 
 export default App;
