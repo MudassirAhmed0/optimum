@@ -147,6 +147,39 @@ filter: blur(13.0543px);
  }
  
 
+
+ .yellowEllipse2{
+    background: #f90;
+    height: 144px;
+    left: 67px;
+    top: -20px;
+    width: 144px;
+    -webkit-filter: blur(139.5px);
+    filter: blur(139.5px);
+    position: absolute;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+
+ }
+
+ 
+ .yellowEllipse{
+    background: #855c1e;
+    height: 208px;
+    right: 27px;
+    top: -55px;
+    width: 208px;
+    -webkit-filter: blur(139.5px);
+    filter: blur(139.5px);
+    position: absolute;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+ }
+
+
+
+
+ 
  .txt span{
     background: linear-gradient(180deg, rgba(245, 245, 245, 0) 10.73%, #F5F5F5 44.06%, #00F2F8 96.67%);
 -webkit-background-clip: text;
@@ -174,6 +207,7 @@ position: relative;
 padding-top: 2.5vw;
 padding-bottom: 2.5vw;
 border: 1px solid #FF005C;
+
 }
 
 .chevron.active{
@@ -181,15 +215,6 @@ border: 1px solid #FF005C;
 }
 
 
-@media (max-width:768px) {
-    .main.active{
-        max-height: 352px;
-   padding: 32px 32px;
-    }
-    .tabOverlay1{
-        height: 172px;
-    }
-}
 .homeAboutGradient{
     filter: blur(50px);
 }
@@ -223,28 +248,7 @@ background: #1F1128;
 filter: blur(139.5px);
 transform:  translate(-50%,-50%) rotate(90deg);
 }
-.yellowEllipse{
-    position: absolute;
-    width: 208px;
-height: 208px;
-right: 27px;
-top: -55px;
 
-background: #855C1E;
-filter: blur(139.5px);
-transform: rotate(90deg);
-}
-.yellowEllipse2{
-    position: absolute;
-    width: 144px;
-    height: 144px;
-    left: 67px;
-    top: -20px;
-    
-    background: #FF9900;
-    filter: blur(139.5px);
-    transform: rotate(90deg);
-}
 .tableEllpse{
     position: absolute;
 width: 647.28px;
@@ -400,3 +404,67 @@ border-radius: 24px;
     height: 20.4640625vw;
     filter: blur(13.0543px);
  }
+
+ 
+@media (max-width:768px) {
+    .main.active{
+        max-height: 352px;
+   padding: 32px 32px;
+    }
+    .tabOverlay1{
+        height: 172px;
+    }
+    .tableBtnOverlay{
+        height: 105.31px;
+        background: rgba(17, 3, 26, 0.5);
+backdrop-filter: blur(15.3067px);
+
+border-radius: 14.6944px
+    }
+    .tableBtnGradients{
+        width: 221.11px;
+height: 160.38px;
+    }
+    .tableBtnGradient2{
+        background: #FF005C;
+        filter: blur(7.99274px);
+width: 160.38px;
+height: 160.38px;
+    }
+    .tableBtnGradient1{
+        background: #FFFF01;
+filter: blur(7.99274px);
+width: 160.38px;
+height: 160.38px;
+right: 0;
+    }
+    .tableBtn{
+        height: 61.84px;
+    }
+.yellowEllipse2{
+    position: absolute;
+    width: 144px;
+    height: 144px;
+    left: 79.19px;
+    top: -105px;
+    
+    background: #FF9900;
+    filter: blur(139.5px);
+    transform: rotate(90deg);
+}
+.yellowEllipse{
+    position: absolute;
+    width: 208px;
+    height: 208px;
+    left: 79.19px;
+    top: -164px;
+    
+    background: #855C1E;
+    filter: blur(139.5px);
+    transform: rotate(90deg);
+}
+.tableEllpse{
+    top: 0;
+}
+
+}

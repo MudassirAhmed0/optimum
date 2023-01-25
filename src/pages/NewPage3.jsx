@@ -1,8 +1,8 @@
 import React from 'react'
 
-import HomeHeading from '../components/utils/HomeHeading'
-import HomePara from '../components/utils/HomePara'
-import HomeLink from '../components/utils/HomeLink'
+// import HomeHeading from '../components/utils/HomeHeading'
+// import HomePara from '../components/utils/HomePara'
+// import HomeLink from '../components/utils/HomeLink'
 import Hero from '../components/home/Hero'
 import PrizeMoney from '../components/heroes/PrizeMoney'
 import InfoGraphic from '../components/heroes/InfoGraphic'
@@ -12,24 +12,32 @@ import Wallet from '../components/heroes/Wallet'
 import Ring from '../components/heroes/Ring'
 import Faqs from '../components/heroes/Faqs'
 
+
+
 const NewPage3 = () => {
+  
   return (
     <>
     <div className='bg-[#11031A] overflow-hidden'>
-
+ 
    <Hero />
     
    <PrizeMoney />
-    <section className='bg-[#11031A] py-[4vw] relative'>
+ 
+    <section className='bg-[#11031A]  md:py-[4vw] relative z-[16]'>
 <InfoGraphic />
-
+  
 <Score />
+
 <Table />
 <Wallet />
 <Ring/>
 
 <Faqs />
-    </section>
+ 
+
+
+    </section> 
       
 
     </div>
