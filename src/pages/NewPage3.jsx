@@ -18,7 +18,7 @@ const NewPage3 = () => {
   
   return (
     <>
-    <div className='bg-[#11031A] overflow-hidden'>
+    <div className='bg-[#11031A] overflow-hidden pb-[100px] md:pb-[0px]'>
  
    <Hero />
     
