@@ -7,11 +7,12 @@ import NewPage3  from './pages/NewPage3'
 import NewPage4  from './pages/NewPage4'
 import LoginModal from './components/modal/LoginModal'
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route  } from "react-router-dom"; 
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsCondition from "./pages/TermsCondition";
 
 function App(props) {
+ 
   return (
     <>
       <Router>
